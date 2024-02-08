@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_internals/keys/todo_item.dart';
 
-
+// created data model 
 class Todo {
   const Todo(this.text, this.priority);
 
   final String text;
   final Priority priority;
 }
+
+
+//
+// created keys  widget with stateful widgets
 
 class Keys extends StatefulWidget {
   const Keys({super.key});
